@@ -1,0 +1,107 @@
+.navbar-default{
+	min-height: 100px;
+}
+.navbar-nav{
+	padding-top: 20px;
+}
+header .navbar{
+	width: 100%;
+	position: fixed;
+	z-index: 66;
+}
+.drop-nav{
+	background-color: white;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: gainsboro;
+}
+header .rightbox>div ul li .grey {
+    background-color: #515053;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0 .4rem;
+    vertical-align: top;
+}
+
+footer{
+	width: 100%;
+	position: relative;
+    background-color: #000;
+    background-image: url(../img/bg-footer.jpg);
+    background-color: black;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 3rem;
+    border: 3px solid #fff;
+}
+#footer{
+	width: 100%;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+    clear: both;
+    float: none;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+}
+footer nav{
+	width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+footer nav ul li{
+	display: inline-block;
+	margin-left: 1em;
+}
+li{
+	text-align: -webkit-match-parent;
+}
+footer .footer-div{
+	width: 100%;
+	position: relative;
+}
+footer ul{
+	list-style: none;
+	margin: 0 auto;
+	}
+.footer-li{
+	
+	float: left;
+	
+}
+footer h4{
+	border-bottom: 1px solid white;
+}
+.footer-ul0{
+	/*text-align: left;*/
+	margin-left: -3.3rem;
+}
+footer p{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+footer span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/gh.png);
+}
+.footer-down{
+	width: 100%;
+}
+footer .col-xs-12{
+	text-align: left;
+	border-bottom: 1px solid white;
+	font-size: 20px;
+}
+footer .col-lg-1{
+	font-size: 15px;
+	border-bottom: none;
+}

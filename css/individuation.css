@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.section-block {
+	width: 100%;
+	position: relative;
+}
+
+.section-block .top-prev {
+	float: left;
+	font-size: 1.5em;
+	position: absolute;
+	top: 94%;
+	left: 11%;
+	display: none;
+}
+
+.section-block .top-next {
+	float: right;
+	font-size: 1.5em;
+	position: absolute;
+	top: 94%;
+	right: 11%;
+	display: none;
+}
+
+.section-3{
+	width: 100%;
+	position: relative;
+	background: url(../img/back.jpg) no-repeat;
+}
+
+.specification {
+	width: 80%;
+	margin: 100px auto;
+	overflow: hidden;
+}
+
+.specification h1 {
+	font-size: 40px;
+	margin-top: 3%;
+}
+
+.specification ul {
+	width: 100%;
+	list-style: none;
+}
+
+.specification .top .top-this {
+	background-color: #EFEFE8;
+	border-top: 3px solid #DDB321;
+}
+
+.specification .top ul li {
+	float: left;
+}
+
+.specification .top li {
+	width: 10%;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+}
+
+.specification .container {
+	width: 100%;
+	background-color: #EFEFE8;
+	padding-bottom: 5%;
+	overflow: hidden;
+}
+
+.specification .bottom {
+	width: 1000%;
+	display: inline-block;
+	transition: all 1000ms;
+}
+
+.specification .bottom div {
+	float: left;
+	width: 10%;
+}
+
+.specification .bottom li {
+	width: 100%;
+	float: left;
+	line-height: 300%;
+}
+
+.specification .bottom li .text-1 {
+	width: 26%;
+	margin-left: 4%;
+	float: left;
+	font-weight: 700;
+	border-bottom: 1px solid #CBCED1;
+}
+
+.specification .bottom li .text-2 {
+	width: 67%;
+	text-align: right;
+	float: left;
+	font-weight: lighter;
+	border-bottom: 1px solid #CBCED1;
+}
+.top-prev:hover{
+	cursor: pointer;
+	border: 1px solid black;
+	background-color: silver;
+}
+.top-next:hover{
+	cursor: pointer;
+	border: 1px solid black;
+	background-color: silver;
+	
+}

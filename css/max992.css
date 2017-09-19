@@ -1,0 +1,21 @@
+			.outer {
+				width: 100%;
+				overflow: hidden;
+			}
+			
+			.inner {
+				width: 625%;
+				overflow: hidden;
+				margin: 0 auto;
+				transition: all 1000ms;
+			}
+			
+			.inner .inner-img {
+				float: left;
+				width: 16%;
+				padding-left: 0%;
+			}
+			
+			.inner .inner-img img {
+				width: 100%;
+			}

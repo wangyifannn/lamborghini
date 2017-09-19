@@ -1,0 +1,175 @@
+/*.carouseltitle{
+	width: 100%;
+	height: ;
+}*/
+body{
+	width: 100%;
+	height: 100%;
+/*	overflow: hidden;*/
+}
+h2.carouseltitle{
+	font-family: Roboto,notozh_title,notojp_title;
+    font-size: 4rem;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2.2rem;
+    margin: 6rem 0 0;
+    text-transform: uppercase;
+}
+h2.carouseltitle:after {
+    content: '';
+    position: absolute;
+    width: 15rem;
+    height: .5rem;
+    background: #000;
+    bottom: 0;
+    left: 50%;
+    margin-left: -7.5rem;
+}
+.carousel-top video{
+	z-index: 0;
+}
+#social-stripe{
+	height: 24.3rem;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center bottom;
+    background-image: url(../img/bg-social-stripe.jpg);
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+#social-stripe>div{
+	display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#social-stripe ul li{
+	    display: inline-block;
+    margin-right: 2rem;
+}
+.row img{
+	width: 100%;
+	margin-left: 1em;
+}
+.ng-isolate-scope{
+	z-index: 66;
+}
+#adpersonam-stripe{
+	width: 100%;
+	overflow: hidden;
+}
+.container-div-div1{
+padding-top: 5rem;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+.boxcontent{
+	font-size: 18px;
+}
+
+section span{
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: gold;
+}
+@media only screen and (min-width:1200px ) {
+.picture{
+	float: right;
+}
+.picture-1{
+	margin-right: -27rem;
+}
+.boxcontent{
+	margin-left: 5rem;
+}
+.div-picture{
+	transform: skew(-45deg);
+	position: relative;
+	overflow: hidden;
+	
+}
+.img-picture{
+	height: 30rem;
+	transform: skew(45deg);
+	position: relative;
+}
+.img-picture-1{
+	margin-left: -17rem;
+}
+.img-picture-2{
+	width: 120%;
+	margin-left: 2.2rem;
+}
+.picture-2{
+	margin-top: 6rem;
+	margin-right: 64rem;
+}
+.picture-3{
+	margin-right: -17.5rem;
+    margin-top: -34rem;
+}
+.img-picture-3{
+	margin-left: -18rem;
+}
+.picture-4{
+	background-size: cover;
+	margin-right: 105.5rem;
+    margin-top: 4rem;
+}
+.img-picture-4{
+	margin-left: 43rem;
+}
+
+.container-div-div2{
+padding-top: 0rem;
+padding-left: 10rem;
+margin-left: 45rem;
+margin-top: -28rem;
+}
+.img-logo{
+	width: 137px;
+	height: 123px;
+}
+}
+@media only screen and (max-width:1200px) and (min-width:760px) {
+.row-content{
+		margin: 0 auto;
+	}
+.img-logo{
+	width: 137px;
+	height: 123px;
+}
+.container-div-div2{
+	margin-left:20% ;
+}
+.container-div-div1{
+	margin-left:20% ;
+}
+.picture-3{
+	margin-top: -10px;
+}
+img{
+	width: 100%;
+}
+}
+@media only screen and (max-width:760px){
+	.img-logo{
+	width: 137px;
+	height: 123px;
+}
+img{
+	width: 100%;
+}
+.picture-3{
+	margin-top: -10px;
+}
+}

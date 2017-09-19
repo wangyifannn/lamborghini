@@ -1,0 +1,107 @@
+.section-block {
+    width: 100%;
+    position: relative;
+}
+
+.section-block .top-prev {
+    float: left;
+    font-size: 2em;
+    position: absolute;
+    top: 75px;
+    left: 27px;
+    display: none;
+}
+
+.section-block .top-next {
+    float: right;
+    font-size: 2em;
+    position: absolute;
+    top: 75px;
+    right: 27px;
+}
+
+.section-3 {
+    width: 100%;
+    background: url(../img/back.jpg) no-repeat;
+}
+
+.specification {
+    width: 80%;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.specification h1 {
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+.specification .top {
+    width: 1000%;
+    float: left;
+    transition: all 1000ms;
+}
+
+.specification ul {
+    width: 100%;
+    list-style: none;
+}
+
+.specification .top {
+    background-color: #EFEFE8;
+}
+
+.specification .top ul li {
+    float: left;
+}
+
+.specification .top li {
+    width: 10%;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+}
+
+.specification .container {
+    width: 100%;
+    background-color: #EFEFE8;
+    padding-bottom: 5%;
+    overflow: hidden;
+}
+
+.specification .bottom {
+    width: 1000%;
+    display: inline-block;
+    transition: all 1000ms;
+}
+
+.specification .bottom div {
+    float: left;
+    width: 10%;
+}
+
+.specification .bottom li {
+    width: 100%;
+    float: left;
+    line-height: 300%;
+}
+
+.specification .bottom li .text-1 {
+    /*width: 100%;*/
+    /*margin-left: 1%;*/
+    float: left;
+    font-weight: 700;
+    border-bottom: 1px solid #CBCED1;
+}
+
+.specification .bottom li .text-2 {
+    width: 50%;
+    text-align: right;
+    float: left;
+    font-weight: lighter;
+    border-bottom: 1px solid #CBCED1;
+}
+
+.top-prev {
+    display: none
+}

@@ -1,0 +1,220 @@
+.container-fluid .row:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    background: url(../img/texture.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.section-car {
+    padding-left: 100px !important;
+}
+
+.section-car strong {
+    font-size: 30px;
+    line-height: 35px;
+    float: left;
+    margin-right: 20px;
+}
+
+.section-car p {
+    font-size: 20px;
+}
+
+.section-btn {
+    width: 120px;
+    height: 45px;
+    margin-top: 50px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #DFB400;
+    color: white;
+    font-size: 20px;
+}
+
+.section-img img {
+    width: 100%;
+    margin-top: 110px;
+}
+
+.section-accessories {
+    margin-top: 100px;
+    padding-left: 100px !important;
+}
+
+.section-accessories strong {
+    font-size: 30px;
+    line-height: 35px;
+    float: left;
+    margin-right: 20px;
+}
+
+.section-accessories p {
+    font-size: 20px;
+}
+
+.section-2 {
+    width: 1583px;
+    height: 665px;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-left2 {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    left: -510px;
+    bottom: -230px;
+    transform: skewX(-40deg);
+    overflow: hidden;
+}
+
+.section-left2-img {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    right: -320px;
+    top: 0px;
+    background: url(../img/closeup.jpg) no-repeat;
+    transform: skewX(40deg);
+}
+
+.section-right2 {
+    width: 1280px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transform: skew(-40deg);
+    overflow: hidden;
+}
+
+.section-right2-img {
+    width: 1540px;
+    height: 100%;
+    transform: skew(40deg);
+    position: absolute;
+    top: 0px;
+    left: -190px;
+    background: url(../img/retro.jpg) no-repeat 0px 0px;
+}
+
+.container-fluid .row:nth-child(4),
+.container-fluid .row:nth-child(5) {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+.container-fluid .row:nth-child(5) {
+    margin-bottom: 200px;
+}
+
+.container-fluid .row:nth-child(4) .col-md-4 {
+    border-bottom: 1px solid black;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.container-fluid .row:nth-child(4) .col-md-4:hover {
+    background-color: black;
+    color: white;
+    transition: all 1000ms;
+}
+
+.container-fluid .row:nth-child(5) .col-md-4 {
+    border-bottom: 1px solid black;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.container-fluid .row:nth-child(5) span {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.container-fluid .row:nth-child(5) .col-md-4:hover {
+    background-color: black;
+    color: white;
+    transition: all 1000ms;
+}
+
+.carousel-indicators {
+    width: 390px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 31%;
+}
+
+.carousel-indicators li {
+    width: 65px;
+    height: 3px;
+    float: left;
+    margin-right: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    width: 65px;
+    height: 3px;
+    float: left;
+    margin-right: 5px;
+    background-color: white;
+    cursor: pointer;
+    background-color: #DDB321;
+}
+
+.row .col-md-6 {
+    overflow: hidden;
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
+.box img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 1000ms;
+}
+
+.box:hover img {
+    transform: scale(1.1);
+}
+
+.col-md-6 .shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    transition: all 1000ms;
+}
+
+.col-md-6:hover .shadow {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.col-md-6:nth-child(1) .shadow p {
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+
+.col-md-6:nth-child(2) .shadow p {
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}

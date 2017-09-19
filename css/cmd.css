@@ -1,0 +1,127 @@
+body,html{
+				font-size: 10px;
+			}
+					
+			.carousel-indicators{
+				width: 390px;
+				height: 3px;
+				position: absolute;	
+				bottom: 0;
+				left: 31%;			
+			}
+			
+			.carousel-indicators li {
+				width: 65px;
+				height: 3px;
+				float: left;
+				margin-right: 5px;
+				background-color: white;
+				cursor: pointer;
+			}
+			
+			.carousel-indicators .active {
+				width: 65px;
+				height: 3px;
+				float: left;
+				margin-right: 5px;
+				background-color: white;
+				cursor: pointer;
+				background-color: #DDB321;
+			}
+			.row .col-md-6{
+				overflow: hidden;		
+				padding: 0;
+				margin: 0;									
+			}
+			.col-md-6 img{
+				width: 100%;
+				top: 0;
+				left: 0;
+				transition: all 1000ms;				
+			}
+			.col-md-6:hover img{
+				transform: scale(1.1);
+			}
+			.col-md-6 .shadow{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: rgba(0,0,0,0.4);
+				font-size: 3em;
+				text-align: center;
+				color: white;
+				transition: all 1000ms;
+			}
+			.col-md-6:hover .shadow{
+				background-color: rgba(0,0,0,0);				
+			}
+			.col-md-6:nth-child(1) .shadow p{
+				font-weight: 700;
+				position: absolute;
+				top: 50%;
+				left: 44%;
+			}
+			.col-md-6:nth-child(2) .shadow p{
+				font-weight: 700;
+				position: absolute;
+				top: 50%;
+				left: 25%;
+			}
+			.outer{
+				width: 90%;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			.inner{
+				width: 200%;
+				transition: all 1000ms;				
+			}
+			.inner-img{
+				width: 16%;
+				float: left;
+				padding-left: 3%;
+			}
+			.inner-img img{
+				width: 90%;
+			}
+			.inner p{
+				width: 90%;
+				margin-top: 5%;
+				font-size: 1.6em;
+				text-transform: uppercase;
+				font-weight: 700;
+			}
+			.hand-img{
+				margin: 0;
+				padding: 0;
+				position: relative;
+			}
+			.pageup,
+			.pagedown{
+				position: absolute;
+				top: 44%;
+				font-size: 1em;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				background-color: #ccc;
+				opacity: 0.5;
+				cursor: pointer;
+				line-height: 30px;
+				text-align: center;
+			}
+			.pageup:hover{
+				opacity: 1;
+			}
+			.pagedown:hover{
+				opacity: 1;
+			}
+			.pagedown{
+				right: 2%;
+			}
+			.pageup{
+				left: 2%;
+				display: none;
+			}
